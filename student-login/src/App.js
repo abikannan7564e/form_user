@@ -14,9 +14,9 @@ function App() {
     borderRadius: "10px", // Add round border
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)", // Optional: Add a subtle box shadow
     backgroundColor: "maroon",
-    color: "white",
-    backgroundImage: `url(${require('./components/formbg.jpg')})`, // Use require for local images
-    backgroundSize: "cover", // Adjust the background size property as needed
+    color: "white"
+    // backgroundImage: `url(${require('./components/formbg.jpg')})`, // Use require for local images
+    // backgroundSize: "cover", // Adjust the background size property as needed
   };
   
   const inputStyle = {
@@ -43,9 +43,9 @@ function App() {
   alignItems: "center",
   justifyContent: "center",
   minHeight: "100vh",
-  position: "relative", 
-  backgroundImage: `url(${require('./components/raingif.gif')})`, // Use the GIF URL directly
-  backgroundSize: "cover",// Make the container position relative
+  position: "relative"
+  // backgroundImage: `url(${require('./components/raingif.gif')})`, // Use the GIF URL directly
+  // backgroundSize: "cover",// Make the container position relative
 };
 
 const raindropOverlayStyle = {
@@ -55,10 +55,10 @@ const raindropOverlayStyle = {
   left: 0,
   width: "100%",
   height: "100%",
-  zIndex: -1,
-  backgroundImage: `url(${require('./components/raingif.gif')})`, // Use the GIF URL directly
-  backgroundSize: "cover",
-  filter: "blur(5px)", // Optional: Add a blur effect
+  zIndex: -1
+  // backgroundImage: `url(${require('./components/raingif.gif')})`, // Use the GIF URL directly
+  // backgroundSize: "cover",
+  // filter: "blur(5px)", // Optional: Add a blur effect
 };
   
   const handleChange = (event) => {
